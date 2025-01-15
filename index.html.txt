@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home" class="hero">
+            <h1>Welcome to Our School</h1>
+            <p>Discover a place where education meets excellence. Our school provides a supportive environment for students to grow and succeed.</p>
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <img src="images/school1.jpg" alt="School Building">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/school2.jpg" alt="Classroom">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/school3.jpg" alt="Library">
+                </div>
+                <button class="carousel-button prev">❮</button>
+                <button class="carousel-button next">❯</button>
+            </div>
+        </section>
+
+        <section id="about" class="info-section">
+            <h1>About Us</h1>
+            <p>Our school is dedicated to fostering a love of learning and personal growth. We offer a range of programs and activities designed to support student development.</p>
+            <p>Founded in 1985, we have a long history of academic excellence and a commitment to innovation in education. Our dedicated staff and state-of-the-art facilities ensure that each student receives a quality education.</p>
+        </section>
+
+        <section id="courses" class="info-section">
+            <h1>Courses</h1>
+            <div class="course-list">
+                <div class="course-card">
+                    <h2>Mathematics</h2>
+                    <p>From basic arithmetic to advanced calculus, our math program provides a solid foundation for analytical thinking and problem-solving skills.</p>
+                </div>
+                <div class="course-card">
+                    <h2>Science</h2>
+                    <p>Explore the wonders of the physical and natural world through our comprehensive science curriculum, including biology, chemistry, and physics.</p>
+                </div>
+                <div class="course-card">
+                    <h2>Arts</h2>
+                    <p>Our arts program encourages creativity and self-expression through visual arts, music, and drama, helping students develop a well-rounded education.</p>
+                </div>
+                <div class="course-card">
+                    <h2>Physical Education</h2>
+                    <p>Promote physical health and teamwork through our physical education courses, including sports, fitness training, and health education.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="info-section">
+            <h1>Upcoming Events</h1>
+            <ul>
+                <li><strong>Parent-Teacher Conference:</strong> March 10, 2024</li>
+                <li><strong>Science Fair:</strong> April 15, 2024</li>
+                <li><strong>Annual School Play:</strong> May 20, 2024</li>
+                <li><strong>Graduation Ceremony:</strong> June 5, 2024</li>
+            </ul>
+        </section>
+
+        <section id="faculty" class="info-section">
+            <h1>Our Faculty</h1>
+            <div class="faculty-list">
+                <div class="faculty-card">
+                    <img src="images/faculty1.jpg" alt="Dr. Alice Smith">
+                    <div class="faculty-info">
+                        <h2>Dr. Alice Smith</h2>
+                        <p><strong>Principal</strong></p>
+                        <p>With over 20 years of experience in education, Dr. Smith leads our school with a passion for student success and academic excellence.</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <img src="images/faculty2.jpg" alt="Mr. John Doe">
+                    <div class="faculty-info">
+                        <h2>Mr. John Doe</h2>
+                        <p><strong>Mathematics Teacher</strong></p>
+                        <p>Mr. Doe is known for his innovative teaching methods and dedication to helping students excel in mathematics.</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <img src="images/faculty3.jpg" alt="Ms. Jane Roe">
+                    <div class="faculty-info">
+                        <h2>Ms. Jane Roe</h2>
+                        <p><strong>Science Teacher</strong></p>
+                        <p>Ms. Roe inspires students with her enthusiasm for science and hands-on approach to learning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="info-section">
+            <h1>What Our Students and Parents Say</h1>
+            <div class="testimonial">
+                <blockquote>
+                    <p>"This school has been a wonderful place for my children to learn and grow. The teachers are dedicated, and the community is supportive."</p>
+                    <footer>— Sarah Johnson, Parent</footer>
+                </blockquote>
+            </div>
+            <div class="testimonial">
+                <blockquote>
+                    <p>"The science program here is outstanding. I've learned so much and feel prepared for college thanks to the amazing faculty."</p>
+                    <footer>— Michael Lee, Student</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="contact" class="info-section">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need further information, please reach out to us. We are here to help!</p>
+            <address>
+                <p>Email: <a href="mailto:info@schoolwebsite.com">info@schoolwebsite.com</a></p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 School Lane, Education City</p>
+            </address>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
